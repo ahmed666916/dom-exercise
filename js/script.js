@@ -75,3 +75,8 @@ const buttonBaby = document.querySelector("#btn-baby");
 //buttonBaby.onclick = alertFunction;
 
 buttonBaby.addEventListener('click', alertFunction);
+
+
+btn.addEventListener('click', function (e) {
+    console.log(e);
+  });
