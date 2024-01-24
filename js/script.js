@@ -64,3 +64,14 @@ const button = document.querySelector('#button');
 button.addEventListener('click', () => {
     alert("Hello World");
 })
+
+
+function alertFunction() {
+    alert("YAY! YOU DID IT!");
+}
+
+const buttonBaby = document.querySelector("#btn-baby");
+
+//buttonBaby.onclick = alertFunction;
+
+buttonBaby.addEventListener('click', alertFunction);
