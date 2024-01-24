@@ -58,3 +58,9 @@ backgroundColor(section, 'pink');
 
 const btn = document.querySelector('#btn');
 btn.onclick = () => alert("Hello World");
+
+
+const button = document.querySelector('#button');
+button.addEventListener('click', () => {
+    alert("Hello World");
+})
