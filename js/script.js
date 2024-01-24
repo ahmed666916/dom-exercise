@@ -29,6 +29,14 @@ marker.textContent = "I'm in a div";
 
 section.appendChild(marker);
 
+const text = document.createElement('p');
+text.classList.add('text');
+text.textContent = "ME TOO!";
+
+section.appendChild(text);
+
+container.appendChild(section);
+
 
 
 function changeColor(element,color) {
