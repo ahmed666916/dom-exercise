@@ -54,3 +54,7 @@ changeColor(paragraph, 'red');
 changeColor(heading, 'blue');
 
 backgroundColor(section, 'pink');
+
+
+const btn = document.querySelector('#btn');
+btn.onclick = () => alert("Hello World");
